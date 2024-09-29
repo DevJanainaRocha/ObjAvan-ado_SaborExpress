@@ -6,8 +6,8 @@ class Restaurante:
     restaurantes = []
 
     def __init__(self, nome, categoria):
-        self._nome = nome.title()#title garante a impressão com a inicial maiúscula
-        self._categoria = categoria.upper() #upper garante a impressão e todas as letras maiúsculas
+        self._nome = nome.title()#title garante a impressão com a primeira letra maiúscula
+        self._categoria = categoria.upper() #supper garante a impressão de todas as letras maiúsculas
         self._ativo = False
         self._avaliacao = []
         self._cardapio = []
